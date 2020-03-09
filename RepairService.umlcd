@@ -1,0 +1,2071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_XX9S8GHiEeqtavOGiUAhAg">
+  <modelElement href="RepairService.uml#_YCy_sGHiEeqtavOGiUAhAg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YzrDAGHiEeqtavOGiUAhAg" sourceAnchor="221.0,0.0" targetAnchor="0.0,93.0" target="_Y3iPUGHiEeqtavOGiUAhAg" source="_YzsRIGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YVeEEWHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_lUxMLmHiEeqtavOGiUAhAg" position="-80.0,1050.0"/>
+    <bendpoints xmi:id="_ggJUkGHkEeqtavOGiUAhAg" sourceY="-128" targetX="-496"/>
+    <stereotypes xmi:id="_YzrqEGHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YVhucGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YzrqEWHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLGEgGHiEeqtavOGiUAhAg" position="229.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YzrqEmHiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YVeEEmHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLE2YGHiEeqtavOGiUAhAg" position="1.0,-87.0"/>
+      <visibility xmi:id="_YzrqE2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzrqFGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YzrqFWHiEeqtavOGiUAhAg" aggregationKind="NONE" name="adminService" navigable="true">
+      <modelElement href="RepairService.uml#_YUAEcGHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLGrkGHiEeqtavOGiUAhAg" position="-155.0,2.0"/>
+      <visibility xmi:id="_YzrqFmHiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_YzrqF2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y0QR0GHiEeqtavOGiUAhAg" sourceAnchor="0.0,55.0" targetAnchor="60.0,81.0" target="_Y3ZFYGHiEeqtavOGiUAhAg" source="_Y0Q44GHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YVGQoWHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUmmHkEeqtavOGiUAhAg" sourceX="-745" targetY="377"/>
+    <stereotypes xmi:id="_Y0QR0WHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YVLwMGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y0QR0mHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLIgwGHiEeqtavOGiUAhAg" position="0.0,-58.00000000000023"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y0QR02HiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YVGQomHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLHSoGHiEeqtavOGiUAhAg" position="-62.0,2.0"/>
+      <visibility xmi:id="_Y0QR1GHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y0QR1WHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y0QR1mHiEeqtavOGiUAhAg" aggregationKind="NONE" name="customerService" navigable="true">
+      <modelElement href="RepairService.uml#_YTu-sGHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLIgwWHiEeqtavOGiUAhAg" position="-105.00000000000011,37.000000000000114"/>
+      <visibility xmi:id="_Y0QR12HiEeqtavOGiUAhAg" label="~"/>
+      <cardinality xmi:id="_Y0QR2GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Y0p6cGHiEeqtavOGiUAhAg" sourceAnchor="0.0,58.0" targetAnchor="121.0,220.0" superClass="_Y07AMGHiEeqtavOGiUAhAg" subClass="_Y0jz0GHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YO7XMWHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUqmHkEeqtavOGiUAhAg" sourceX="-147" targetX="-252" targetY="449"/>
+    <bendpoints xmi:id="_ggJUq2HkEeqtavOGiUAhAg" sourceX="-147" sourceY="-426" targetX="-252" targetY="23"/>
+    <bendpoints xmi:id="_ggJUrGHkEeqtavOGiUAhAg" sourceX="105" sourceY="-426" targetY="23"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Y0p6cWHiEeqtavOGiUAhAg" sourceAnchor="129.0,0.0" targetAnchor="121.0,220.0" superClass="_Y07AMGHiEeqtavOGiUAhAg" subClass="_Y1Uo0GHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YO_BkGHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUpWHkEeqtavOGiUAhAg" sourceY="-23" targetX="369" targetY="23"/>
+    <bendpoints xmi:id="_ggJUpmHkEeqtavOGiUAhAg" sourceX="-369" sourceY="-23" targetY="23"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Y0qhgGHiEeqtavOGiUAhAg" sourceAnchor="121.0,0.0" targetAnchor="149.0,420.0" superClass="_Y1b9kGHiEeqtavOGiUAhAg" subClass="_Y07AMGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YQpOcWHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUrWHkEeqtavOGiUAhAg" sourceY="-286" targetX="-1381" targetY="-166"/>
+    <bendpoints xmi:id="_ggJUrmHkEeqtavOGiUAhAg" sourceX="1156" sourceY="-286" targetX="-225" targetY="-166"/>
+    <bendpoints xmi:id="_ggJUr2HkEeqtavOGiUAhAg" sourceX="1156" sourceY="-30" targetX="-225" targetY="90"/>
+    <bendpoints xmi:id="_ggJUsGHkEeqtavOGiUAhAg" sourceX="1381" sourceY="-30" targetY="90"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y0wBEGHiEeqtavOGiUAhAg" sourceAnchor="277.0,115.0" targetAnchor="179.0,420.0" target="_Y1b9kGHiEeqtavOGiUAhAg" source="_Y2OnwGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YUa7MGHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUoWHkEeqtavOGiUAhAg" sourceX="390" targetY="195"/>
+    <nameVisual xmi:id="_Y02uwGHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLK9AGHiEeqtavOGiUAhAg" position="-12.0,-58.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y02uwWHiEeqtavOGiUAhAg" aggregationKind="NONE" name="customer" navigable="true">
+      <modelElement href="RepairService.uml#_YT26hWHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLJu4GHiEeqtavOGiUAhAg" position="47.0,-47.0"/>
+      <visibility xmi:id="_Y05LAWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y05LAGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y02uwmHiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YUZGAGHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLK9AWHiEeqtavOGiUAhAg" position="-24.0,30.0"/>
+      <visibility xmi:id="_Y05yEmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y05yEWHiEeqtavOGiUAhAg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Y1-JEGHiEeqtavOGiUAhAg" sourceAnchor="275.0,65.0" targetAnchor="149.0,420.0" superClass="_Y1b9kGHiEeqtavOGiUAhAg" subClass="_Y2DBkGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YPOSIWHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUomHkEeqtavOGiUAhAg" sourceX="575" targetX="60" targetY="441"/>
+    <bendpoints xmi:id="_ggJUo2HkEeqtavOGiUAhAg" sourceX="575" sourceY="-351" targetX="60" targetY="90"/>
+    <bendpoints xmi:id="_ggJUpGHkEeqtavOGiUAhAg" sourceX="515" sourceY="-351" targetY="90"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Y1-wIGHiEeqtavOGiUAhAg" sourceAnchor="131.0,0.0" targetAnchor="137.0,130.0" superClass="_Y2DBkGHiEeqtavOGiUAhAg" subClass="_Y0b4AGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YO5iAWHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUqGHkEeqtavOGiUAhAg" sourceY="-21" targetX="-834" targetY="20"/>
+    <bendpoints xmi:id="_ggJUqWHkEeqtavOGiUAhAg" sourceX="834" sourceY="-21" targetY="20"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Y1-wIWHiEeqtavOGiUAhAg" sourceAnchor="138.0,0.0" targetAnchor="137.0,130.0" superClass="_Y2DBkGHiEeqtavOGiUAhAg" subClass="_Y14CcGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YO9MYGHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUsWHkEeqtavOGiUAhAg" sourceY="-58" targetX="-359" targetY="20"/>
+    <bendpoints xmi:id="_ggJUsmHkEeqtavOGiUAhAg" sourceX="359" sourceY="-58" targetY="20"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y2j-8GHiEeqtavOGiUAhAg" sourceAnchor="281.0,93.0" targetAnchor="58.0,0.0" target="_Y2l0IGHiEeqtavOGiUAhAg" source="_Y3iPUGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YVVhMWHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_lUyaMGHiEeqtavOGiUAhAg" position="-80.0,1050.0"/>
+    <bendpoints xmi:id="_ggJUm2HkEeqtavOGiUAhAg" sourceX="120" targetX="834" targetY="965"/>
+    <bendpoints xmi:id="_ggJUnGHkEeqtavOGiUAhAg" sourceX="120" sourceY="-1045" targetX="834" targetY="-80"/>
+    <bendpoints xmi:id="_ggJUnWHkEeqtavOGiUAhAg" sourceX="-714" sourceY="-1045" targetY="-80"/>
+    <stereotypes xmi:id="_Y2kmA2HiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YVZyoGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y2kmAGHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLQckGHiEeqtavOGiUAhAg" position="-792.9999999999998,0.9999999999997726"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y2kmAWHiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YVVhMmHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLP1gGHiEeqtavOGiUAhAg" position="64.0,-46.0"/>
+      <visibility xmi:id="_Y2lNEWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2lNEGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y2kmAmHiEeqtavOGiUAhAg" aggregationKind="NONE" name="productRepo" navigable="true">
+      <modelElement href="RepairService.uml#_YT-2UGHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLQckWHiEeqtavOGiUAhAg" position="-86.00000000000011,-57.0"/>
+      <stereotypes xmi:id="_Y2lNFGHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YT-2UWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2lNE2HiEeqtavOGiUAhAg" label="~"/>
+      <cardinality xmi:id="_Y2lNEmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y2pegGHiEeqtavOGiUAhAg" sourceAnchor="0.0,10.0" targetAnchor="145.0,71.0" target="_Y3JNwGHiEeqtavOGiUAhAg" source="_Y3ZFYGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YU_i8GHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUp2HkEeqtavOGiUAhAg" sourceX="-485" targetY="65"/>
+    <stereotypes xmi:id="_Y2rTsmHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YVGQoGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y2qsoGHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLPOcGHiEeqtavOGiUAhAg" position="-44.0,-41.00000000000023"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y2rTsGHiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YU_i8WHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLOnYGHiEeqtavOGiUAhAg" position="-46.0,-47.0"/>
+      <visibility xmi:id="_Y2sh0WHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2sh0GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y2rTsWHiEeqtavOGiUAhAg" aggregationKind="NONE" name="customerRepo" navigable="true">
+      <modelElement href="RepairService.uml#_YTtwkGHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLPOcWHiEeqtavOGiUAhAg" position="41.0,19.000000000000057"/>
+      <stereotypes xmi:id="_Y2sh1GHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YTuXoGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2sh02HiEeqtavOGiUAhAg" label="~"/>
+      <cardinality xmi:id="_Y2sh0mHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y2qFkGHiEeqtavOGiUAhAg" sourceAnchor="140.0,187.0" targetAnchor="0.0,35.0" target="_Y3JNwGHiEeqtavOGiUAhAg" source="_Y3iPUGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YVZyoWHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_lUyaMWHiEeqtavOGiUAhAg" position="-80.0,1050.0"/>
+    <bendpoints xmi:id="_ggJUnmHkEeqtavOGiUAhAg" sourceY="348" targetX="1444" targetY="1196"/>
+    <bendpoints xmi:id="_ggJUn2HkEeqtavOGiUAhAg" sourceX="-1489" sourceY="348" targetX="-45" targetY="1196"/>
+    <bendpoints xmi:id="_ggJUoGHkEeqtavOGiUAhAg" sourceX="-1489" sourceY="-848" targetX="-45"/>
+    <stereotypes xmi:id="_Y2r6wmHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YVeEEGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y2rTs2HiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLSRwGHiEeqtavOGiUAhAg" position="41.0,-18.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y2r6wGHiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YVZyomHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLRqsGHiEeqtavOGiUAhAg" position="-17.000000000000007,38.0"/>
+      <visibility xmi:id="_Y2sh1mHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2sh1WHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y2r6wWHiEeqtavOGiUAhAg" aggregationKind="NONE" name="customerRepo" navigable="true">
+      <modelElement href="RepairService.uml#_YT-2U2HiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLS40GHiEeqtavOGiUAhAg" position="-161.99999999999977,35.999999999999545"/>
+      <stereotypes xmi:id="_Y2tI4mHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YT_dYGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2tI4WHiEeqtavOGiUAhAg" label="~"/>
+      <cardinality xmi:id="_Y2tI4GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y3LqAGHiEeqtavOGiUAhAg" sourceAnchor="176.0,0.0" targetAnchor="0.0,65.0" target="_Y2l0IGHiEeqtavOGiUAhAg" source="_Y3QiiWHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YVMXQGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_8vaRkGHiEeqtavOGiUAhAg" position="-936.0,300.0"/>
+    <bendpoints xmi:id="_ggJUlmHkEeqtavOGiUAhAg" sourceY="-33" targetX="-332"/>
+    <stereotypes xmi:id="_Y3M4I2HiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YVRPwGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y3M4IGHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLMyMGHiEeqtavOGiUAhAg" position="163.0,-18.99999999999997"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y3M4IWHiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YVMXQWHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLMLIGHiEeqtavOGiUAhAg" position="-20.0,-50.0"/>
+      <visibility xmi:id="_Y3OGQWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3OGQGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y3M4ImHiEeqtavOGiUAhAg" aggregationKind="NONE" name="productRepo" navigable="true">
+      <modelElement href="RepairService.uml#_YT9oMGHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLNZQGHiEeqtavOGiUAhAg" position="-147.0,2.0"/>
+      <visibility xmi:id="_Y3OtUWHiEeqtavOGiUAhAg" label="~"/>
+      <cardinality xmi:id="_Y3OtUGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y3QigGHiEeqtavOGiUAhAg" sourceAnchor="351.0,33.0" targetAnchor="0.0,30.0" target="_8vZqgGHiEeqtavOGiUAhAg" source="_Y3QiiWHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YVRPwWHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_8va4oGHiEeqtavOGiUAhAg" position="-936.0,300.0"/>
+    <stereotypes xmi:id="_Y3QigWHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YVVhMGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y3QigmHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_82QgcWHiEeqtavOGiUAhAg" position="-33.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y3Qig2HiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YVRPwmHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_82QgcGHiEeqtavOGiUAhAg" position="14.0,2.0"/>
+      <visibility xmi:id="_Y3QihGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3QihWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y3QihmHiEeqtavOGiUAhAg" aggregationKind="NONE" name="log" navigable="true">
+      <modelElement href="RepairService.uml#_YT9oM2HiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_82RHgGHiEeqtavOGiUAhAg" position="-57.0,2.0"/>
+      <visibility xmi:id="_Y3Qih2HiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y3QiiGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y3sAUGHiEeqtavOGiUAhAg" sourceAnchor="0.0,64.0" targetAnchor="85.0,71.0" target="_Y3JNwGHiEeqtavOGiUAhAg" source="_Y32YYGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YVhucWHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUkWHkEeqtavOGiUAhAg" sourceX="-211" targetY="910"/>
+    <stereotypes xmi:id="_Y3wRwWHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YVlY0GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y3vqsGHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLUuAGHiEeqtavOGiUAhAg" position="-39.00000000000023,-463.9999999999999"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y3vqsWHiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YVhucmHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLTf4GHiEeqtavOGiUAhAg" position="-29.0,-47.0"/>
+      <visibility xmi:id="_Y3yuAWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3yuAGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y3wRwGHiEeqtavOGiUAhAg" aggregationKind="NONE" name="customerRepo" navigable="true">
+      <modelElement href="RepairService.uml#_YUBSkGHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLUuAWHiEeqtavOGiUAhAg" position="41.0,96.00000000000011"/>
+      <visibility xmi:id="_Y3yuA2HiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y3yuAmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y3tOcGHiEeqtavOGiUAhAg" sourceAnchor="0.0,94.0" targetAnchor="0.0,35.0" target="_Y2l0IGHiEeqtavOGiUAhAg" source="_Y32YYGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YVl_4GHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUkmHkEeqtavOGiUAhAg" sourceX="-311" targetX="-828" targetY="1152"/>
+    <bendpoints xmi:id="_ggJUk2HkEeqtavOGiUAhAg" sourceX="-311" sourceY="-1152" targetX="-828"/>
+    <stereotypes xmi:id="_Y3wRxWHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YVpqQGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y3wRwmHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLXKQGHiEeqtavOGiUAhAg" position="-39.00000000000023,43.000000000000114"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y3wRw2HiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YVl_4WHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLV8IGHiEeqtavOGiUAhAg" position="-43.0,2.0"/>
+      <visibility xmi:id="_Y3yuBmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3yuBWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y3wRxGHiEeqtavOGiUAhAg" aggregationKind="NONE" name="productRepo" navigable="true">
+      <modelElement href="RepairService.uml#_YUB5omHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLXKQWHiEeqtavOGiUAhAg" position="-160.00000000000023,-47.0"/>
+      <visibility xmi:id="_Y3yuCGHiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y3yuB2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y3uckGHiEeqtavOGiUAhAg" sourceAnchor="124.0,0.0" targetAnchor="0.0,63.0" target="_Y3iPUGHiEeqtavOGiUAhAg" source="_Y32YYGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YVpqQWHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_lUx0RWHiEeqtavOGiUAhAg" position="-80.0,1050.0"/>
+    <bendpoints xmi:id="_ggJUlGHkEeqtavOGiUAhAg" sourceY="-158" targetX="-884"/>
+    <stereotypes xmi:id="_Y3w40WHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YVt7sGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y3wRxmHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLZmgGHiEeqtavOGiUAhAg" position="423.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y3wRx2HiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YVpqQmHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLYYYGHiEeqtavOGiUAhAg" position="1.0,-117.0"/>
+      <visibility xmi:id="_Y3zVEmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3zVEWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y3w40GHiEeqtavOGiUAhAg" aggregationKind="NONE" name="adminService" navigable="true">
+      <modelElement href="RepairService.uml#_YUCgsmHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLZmgWHiEeqtavOGiUAhAg" position="-160.0,-47.0"/>
+      <visibility xmi:id="_Y3zVFGHiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y3zVE2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y3vDoGHiEeqtavOGiUAhAg" sourceAnchor="94.0,0.0" targetAnchor="0.0,40.0" target="_Y3ZFYGHiEeqtavOGiUAhAg" source="_Y32YYGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YVt7sWHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUlWHkEeqtavOGiUAhAg" sourceY="-751" targetX="-240"/>
+    <stereotypes xmi:id="_Y3w41WHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YVyNIGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y3w40mHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLcCwGHiEeqtavOGiUAhAg" position="1.0,40.999999999999886"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y3w402HiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YVt7smHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLa0oGHiEeqtavOGiUAhAg" position="2.0,-90.0"/>
+      <visibility xmi:id="_Y3z8IWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3z8IGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y3w41GHiEeqtavOGiUAhAg" aggregationKind="NONE" name="customerService" navigable="true">
+      <modelElement href="RepairService.uml#_YUDHwGHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLcCwWHiEeqtavOGiUAhAg" position="-199.0,1.0"/>
+      <visibility xmi:id="_Y3z8I2HiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y3z8ImHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y4AwcGHiEeqtavOGiUAhAg" sourceAnchor="114.0,0.0" targetAnchor="205.0,71.0" target="_Y3JNwGHiEeqtavOGiUAhAg" source="_Y4GQAGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YVyNIWHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUl2HkEeqtavOGiUAhAg" sourceY="-376" targetX="1089" targetY="15"/>
+    <bendpoints xmi:id="_ggJUmGHkEeqtavOGiUAhAg" sourceX="-1089" sourceY="-376" targetY="15"/>
+    <stereotypes xmi:id="_Y4DMsWHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YV2ekGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y4CloGHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLd38GHiEeqtavOGiUAhAg" position="29.0,-19.000000000000057"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y4CloWHiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YVyNImHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLdQ4GHiEeqtavOGiUAhAg" position="2.0,-83.0"/>
+      <visibility xmi:id="_Y4Ea0WHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y4Ea0GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y4DMsGHiEeqtavOGiUAhAg" aggregationKind="NONE" name="customerRepo" navigable="true">
+      <modelElement href="RepairService.uml#_YUDu0GHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLefAGHiEeqtavOGiUAhAg" position="181.0,16.999999999999886"/>
+      <visibility xmi:id="_Y4Ea02HiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y4Ea0mHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Y4BXgGHiEeqtavOGiUAhAg" sourceAnchor="0.0,43.0" targetAnchor="90.0,81.0" target="_Y3ZFYGHiEeqtavOGiUAhAg" source="_Y4GQAGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YV2ekWHiEeqtavOGiUAhAg"/>
+    <bendpoints xmi:id="_ggJUmWHkEeqtavOGiUAhAg" sourceX="-460" targetY="298"/>
+    <stereotypes xmi:id="_Y4DMtWHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YV6I8GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Y4DMsmHiEeqtavOGiUAhAg" text="">
+      <visualProperties xmi:id="_ZLgUMGHiEeqtavOGiUAhAg" position="0.0,-58.00000000000023"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Y4DMs2HiEeqtavOGiUAhAg" aggregationKind="NONE" name="">
+      <modelElement href="RepairService.uml#_YV2ekmHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLfGEGHiEeqtavOGiUAhAg" position="-44.0,-47.0"/>
+      <visibility xmi:id="_Y4Ea1mHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y4Ea1WHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Y4DMtGHiEeqtavOGiUAhAg" aggregationKind="NONE" name="customerService" navigable="true">
+      <modelElement href="RepairService.uml#_YUEV4GHiEeqtavOGiUAhAg"/>
+      <visualProperties xmi:id="_ZLgUMWHiEeqtavOGiUAhAg" position="1.0,36.000000000000114"/>
+      <visibility xmi:id="_Y4FB4WHiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y4FB4GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y1b9kGHiEeqtavOGiUAhAg" name="Product" associationsIn="_Y0wBEGHiEeqtavOGiUAhAg" subclassedBy="_Y0qhgGHiEeqtavOGiUAhAg _Y1-JEGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y1b9kWHiEeqtavOGiUAhAg" position="1849.0,-269.0" size="358.0,420.0"/>
+    <stereotypes xmi:id="_Y1b9kmHiEeqtavOGiUAhAg" name="InheritanceMapping">
+      <modelElement href="RepairService.uml#_YGVb4GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y1b9k2HiEeqtavOGiUAhAg" name="JPA1StyledElement">
+      <modelElement href="RepairService.uml#_YGWqAGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y1b9lGHiEeqtavOGiUAhAg" name="TechnicalSupplement">
+      <modelElement href="RepairService.uml#_YGXREGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y1b9lWHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y1b9lmHiEeqtavOGiUAhAg" name="id">
+      <modelElement href="RepairService.uml#_YTypEGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1b9l2HiEeqtavOGiUAhAg" name="LegacyStyledElement">
+        <modelElement href="RepairService.uml#_YTypEWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Y1b9mGHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YTzQIGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1b9mWHiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y1b9mmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y1ckoGHiEeqtavOGiUAhAg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y1ckoWHiEeqtavOGiUAhAg" name="brand">
+      <modelElement href="RepairService.uml#_YTz3NGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ckomHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YT0eQGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1cko2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ckpGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y1ckpWHiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y1ckpmHiEeqtavOGiUAhAg" name="serviceFee">
+      <modelElement href="RepairService.uml#_YT0eQWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ckp2HiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YT0eQmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ckqGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ckqWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y1ckqmHiEeqtavOGiUAhAg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y1ckq2HiEeqtavOGiUAhAg" name="piece">
+      <modelElement href="RepairService.uml#_YT0eQ2HiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ckrGHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+        <modelElement href="RepairService.uml#_YT1FUGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ckrWHiEeqtavOGiUAhAg" label="#"/>
+      <cardinality xmi:id="_Y1ckrmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y1ckr2HiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y1cksGHiEeqtavOGiUAhAg" name="date">
+      <modelElement href="RepairService.uml#_YT1FUWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1cksWHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+        <modelElement href="RepairService.uml#_YT1FUmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Y1cksmHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YT1sYGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1cks2HiEeqtavOGiUAhAg" label="#"/>
+      <cardinality xmi:id="_Y1cktGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y1cktWHiEeqtavOGiUAhAg" name="Date">
+        <modelElement href="RepairService.uml#_YPO5MGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y1cktmHiEeqtavOGiUAhAg" name="repairDate">
+      <modelElement href="RepairService.uml#_YT2TcGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ckt2HiEeqtavOGiUAhAg" name="LegacyStyledElement">
+        <modelElement href="RepairService.uml#_YT2TcWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Y1ckuGHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YT2TcmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ckuWHiEeqtavOGiUAhAg" label="#"/>
+      <cardinality xmi:id="_Y1ckumHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y1cku2HiEeqtavOGiUAhAg" name="Date">
+        <modelElement href="RepairService.uml#_YPO5MGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y1ckvGHiEeqtavOGiUAhAg" name="price">
+      <modelElement href="RepairService.uml#_YT26g2HiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ckvWHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YT26hGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ckvmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ckv2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y1ckwGHiEeqtavOGiUAhAg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y1ckwWHiEeqtavOGiUAhAg" name="customer">
+      <modelElement href="RepairService.uml#_YT26hWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ckwmHiEeqtavOGiUAhAg" name="JoinColumns">
+        <modelElement href="RepairService.uml#_YT3hkGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ckw2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ckxGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y1ckxWHiEeqtavOGiUAhAg" name="Customer">
+        <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y1ckxmHiEeqtavOGiUAhAg" name="Product">
+      <modelElement href="RepairService.uml#_YGYfMGHiEeqtavOGiUAhAg"/>
+      <keywords xmi:id="_Y1ckx2HiEeqtavOGiUAhAg" keyword="create"/>
+      <stereotypes xmi:id="_Y1ckyGHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+        <modelElement href="RepairService.uml#_YGZGQWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ckyWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ckymHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y1cky2HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YGZGQmHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y1ckzGHiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y1ckzWHiEeqtavOGiUAhAg" name="calculatePrice">
+      <modelElement href="RepairService.uml#_YGaUYGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ckzmHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YGbigGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ckz2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ck0GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y1ck0WHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YGa7cmHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y1ck0mHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Y1ck02HiEeqtavOGiUAhAg" name="serviceFee">
+        <modelElement href="RepairService.uml#_YGa7cGHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1ck1GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1ck1WHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y1ck1mHiEeqtavOGiUAhAg" name="pieceRate">
+        <modelElement href="RepairService.uml#_YGa7cWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1ck12HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1ck2GHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Y1ck2WHiEeqtavOGiUAhAg" name="getId">
+      <modelElement href="RepairService.uml#_YGbigWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ck2mHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YGcJkGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ck22HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ck3GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y1ck3WHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YGbigmHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y1ck3mHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y1ck32HiEeqtavOGiUAhAg" name="setId">
+      <modelElement href="RepairService.uml#_YGcJkWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ck4GHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YGcwoWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ck4WHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ck4mHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y1ck42HiEeqtavOGiUAhAg" name="id">
+        <modelElement href="RepairService.uml#_YGcwoGHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1ck5GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1ck5WHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Y1ck5mHiEeqtavOGiUAhAg" name="getPiece">
+      <modelElement href="RepairService.uml#_YGcwomHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ck52HiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YGdXsWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ck6GHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ck6WHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y1ck6mHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YGdXsGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y1ck62HiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y1ck7GHiEeqtavOGiUAhAg" name="setPiece">
+      <modelElement href="RepairService.uml#_YGd-wGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ck7WHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YGel0GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ck7mHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ck72HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y1ck8GHiEeqtavOGiUAhAg" name="piece">
+        <modelElement href="RepairService.uml#_YGd-wWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1ck8WHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1ck8mHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Y1ck82HiEeqtavOGiUAhAg" name="getDate">
+      <modelElement href="RepairService.uml#_YGel0WHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ck9GHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YGfM4GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ck9WHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ck9mHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y1ck92HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YTZngWHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y1ck-GHiEeqtavOGiUAhAg" name="Date">
+          <modelElement href="RepairService.uml#_YPO5MGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y1ck-WHiEeqtavOGiUAhAg" name="getRepairDate">
+      <modelElement href="RepairService.uml#_YGfM4WHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1ck-mHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YGfz8GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1ck-2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1ck_GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y1ck_WHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YTa1oGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y1ck_mHiEeqtavOGiUAhAg" name="Date">
+          <modelElement href="RepairService.uml#_YPO5MGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y1ck_2HiEeqtavOGiUAhAg" name="toString">
+      <modelElement href="RepairService.uml#_YGfz8WHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1clAGHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+        <modelElement href="RepairService.uml#_YGgbAWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Y1clAWHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YGgbAmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1clAmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1clA2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y1clBGHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YGgbAGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y1clBWHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y1clBmHiEeqtavOGiUAhAg" name="Product">
+      <modelElement href="RepairService.uml#_YTYZYGHiEeqtavOGiUAhAg"/>
+      <keywords xmi:id="_Y1clB2HiEeqtavOGiUAhAg" keyword="create"/>
+      <stereotypes xmi:id="_Y1clCGHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YTZngGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1clCWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1clCmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y1clC2HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YTZAeWHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y1clDGHiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Y1clDWHiEeqtavOGiUAhAg" name="id">
+        <modelElement href="RepairService.uml#_YTYZYWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1clDmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1clD2HiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y1clEGHiEeqtavOGiUAhAg" name="brand">
+        <modelElement href="RepairService.uml#_YTZAcGHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1clEWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1clEmHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y1clE2HiEeqtavOGiUAhAg" name="serviceFee">
+        <modelElement href="RepairService.uml#_YTZAcWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1clFGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1clFWHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y1clFmHiEeqtavOGiUAhAg" name="piece">
+        <modelElement href="RepairService.uml#_YTZAcmHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1clF2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1clGGHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y1clGWHiEeqtavOGiUAhAg" name="date">
+        <modelElement href="RepairService.uml#_YTZAc2HiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1clGmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1clG2HiEeqtavOGiUAhAg" name="Date">
+          <modelElement href="RepairService.uml#_YPO5MGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y1clHGHiEeqtavOGiUAhAg" name="repairDate">
+        <modelElement href="RepairService.uml#_YTZAdGHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1clHWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1clHmHiEeqtavOGiUAhAg" name="Date">
+          <modelElement href="RepairService.uml#_YPO5MGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y1clH2HiEeqtavOGiUAhAg" name="price">
+        <modelElement href="RepairService.uml#_YTZAdWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1clIGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1clIWHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y1clImHiEeqtavOGiUAhAg" name="customer">
+        <modelElement href="RepairService.uml#_YTZAdmHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1clI2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1clJGHiEeqtavOGiUAhAg" name="Customer">
+          <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Y1clJWHiEeqtavOGiUAhAg" name="setDate">
+      <modelElement href="RepairService.uml#_YTaOkGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1clJmHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YTaOkmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1clJ2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1clKGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y1clKWHiEeqtavOGiUAhAg" name="date">
+        <modelElement href="RepairService.uml#_YTaOkWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1clKmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1clK2HiEeqtavOGiUAhAg" name="Date">
+          <modelElement href="RepairService.uml#_YPO5MGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Y1clLGHiEeqtavOGiUAhAg" name="setRepairDate">
+      <modelElement href="RepairService.uml#_YTa1oWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1clLWHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YTa1o2HiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1clLmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1clL2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y1clMGHiEeqtavOGiUAhAg" name="repairDate">
+        <modelElement href="RepairService.uml#_YTa1omHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1clMWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1clMmHiEeqtavOGiUAhAg" name="Date">
+          <modelElement href="RepairService.uml#_YPO5MGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YzsRIGHiEeqtavOGiUAhAg" name="AdminController" associationsOut="_YzrDAGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YHUTUGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_YzsRIWHiEeqtavOGiUAhAg" position="-853.0,1188.0" size="413.0,299.0"/>
+    <stereotypes xmi:id="_YzsRImHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+      <modelElement href="RepairService.uml#_YHVhcGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_YzsRI2HiEeqtavOGiUAhAg" name="Annotations">
+      <modelElement href="RepairService.uml#_YHmAIGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_YzsRJGHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_YzsRJWHiEeqtavOGiUAhAg" name="adminService">
+      <modelElement href="RepairService.uml#_YUAEcGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRJmHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YUAEcWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRJ2HiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_YzsRKGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_YzsRKWHiEeqtavOGiUAhAg" name="AdminService">
+        <modelElement href="RepairService.uml#_YHJ7QGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YzsRKmHiEeqtavOGiUAhAg" name="findCustomers">
+      <modelElement href="RepairService.uml#_YHVhcWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRK2HiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHWvkGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRLGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRLWHiEeqtavOGiUAhAg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_YzsRLmHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHWIgGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRL2HiEeqtavOGiUAhAg" name="Customer">
+          <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YzsRMGHiEeqtavOGiUAhAg" name="delete">
+      <modelElement href="RepairService.uml#_YHXWoWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRMWHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHZL0WHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRMmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRM2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YzsRNGHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHX9sWHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRNWHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YzsRNmHiEeqtavOGiUAhAg" name="id">
+        <modelElement href="RepairService.uml#_YHX9sGHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_YzsRN2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_YzsROGHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YzsROWHiEeqtavOGiUAhAg" name="findProducts">
+      <modelElement href="RepairService.uml#_YHZy4mHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsROmHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHbBAGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRO2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRPGHiEeqtavOGiUAhAg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_YzsRPWHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHaZ8GHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRPmHiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YzsRP2HiEeqtavOGiUAhAg" name="findProduct">
+      <modelElement href="RepairService.uml#_YHboEGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRQGHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHddQGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRQWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRQmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YzsRQ2HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YRne0GHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRRGHiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YzsRRWHiEeqtavOGiUAhAg" name="userName">
+        <modelElement href="RepairService.uml#_YHboEWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_YzsRRmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_YzsRR2HiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YzsRSGHiEeqtavOGiUAhAg" name="addLaptopDetails">
+      <modelElement href="RepairService.uml#_YHddRGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRSWHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHerYGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRSmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRS2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YzsRTGHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHeEUGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRTWHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YzsRTmHiEeqtavOGiUAhAg" name="addPcDetails">
+      <modelElement href="RepairService.uml#_YHerY2HiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRT2HiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHf5gGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRUGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRUWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YzsRUmHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHfScGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRU2HiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YzsRVGHiEeqtavOGiUAhAg" name="addMobilePhoneDetails">
+      <modelElement href="RepairService.uml#_YHggkGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRVWHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHhusGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRVmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRV2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YzsRWGHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHhHoGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRWWHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YzsRWmHiEeqtavOGiUAhAg" name="addLandLineDetails">
+      <modelElement href="RepairService.uml#_YHhus2HiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRW2HiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHi80GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRXGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRXWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YzsRXmHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHiVwGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRX2HiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YzsRYGHiEeqtavOGiUAhAg" name="deleteProduct">
+      <modelElement href="RepairService.uml#_YHjj4GHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRYWHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHkyAmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRYmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRY2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YzsRZGHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHkK8GHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRZWHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YzsRZmHiEeqtavOGiUAhAg" name="id">
+        <modelElement href="RepairService.uml#_YHjj4WHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_YzsRZ2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_YzsRaGHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YzsRaWHiEeqtavOGiUAhAg" name="addNewLaptop">
+      <modelElement href="RepairService.uml#_YRoF4GHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRamHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YRos8GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRa2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRbGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YzsRbWHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YToRAGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRbmHiEeqtavOGiUAhAg" name="ModelAndView">
+          <modelElement href="RepairService.uml#_YNwSgWHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YzsRb2HiEeqtavOGiUAhAg" name="laptop">
+        <modelElement href="RepairService.uml#_YRoF4WHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_YzsRcGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_YzsRcWHiEeqtavOGiUAhAg" name="Laptop">
+          <modelElement href="RepairService.uml#_YFj_0GHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YzsRcmHiEeqtavOGiUAhAg" name="addNewPc">
+      <modelElement href="RepairService.uml#_YRpUAGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRc2HiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YRp7EGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRdGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRdWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YzsRdmHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YTo4EGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRd2HiEeqtavOGiUAhAg" name="ModelAndView">
+          <modelElement href="RepairService.uml#_YNwSgWHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YzsReGHiEeqtavOGiUAhAg" name="pc">
+        <modelElement href="RepairService.uml#_YRpUAWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_YzsReWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_YzsRemHiEeqtavOGiUAhAg" name="Pc">
+          <modelElement href="RepairService.uml#_YFtJwGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YzsRe2HiEeqtavOGiUAhAg" name="addNewMobilePhone">
+      <modelElement href="RepairService.uml#_YRqiIGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRfGHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YRrJMGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRfWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRfmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YzsRf2HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YTo4EWHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRgGHiEeqtavOGiUAhAg" name="ModelAndView">
+          <modelElement href="RepairService.uml#_YNwSgWHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YzsRgWHiEeqtavOGiUAhAg" name="mobilePhone">
+        <modelElement href="RepairService.uml#_YRqiIWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_YzsRgmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_YzsRg2HiEeqtavOGiUAhAg" name="MobilePhone">
+          <modelElement href="RepairService.uml#_YFnqMGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YzsRhGHiEeqtavOGiUAhAg" name="addNewLandLinePhone">
+      <modelElement href="RepairService.uml#_YRrwQmHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YzsRhWHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YRsXUGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YzsRhmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YzsRh2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YzsRiGHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YTo4EmHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YzsRiWHiEeqtavOGiUAhAg" name="ModelAndView">
+          <modelElement href="RepairService.uml#_YNwSgWHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YzsRimHiEeqtavOGiUAhAg" name="landLinePhone">
+        <modelElement href="RepairService.uml#_YRrwQ2HiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_YzsRi2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_YzsRjGHiEeqtavOGiUAhAg" name="LandLinePhone">
+          <modelElement href="RepairService.uml#_YFcrEGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y32YYGHiEeqtavOGiUAhAg" name="AdminServiceTest" associationsOut="_Y3sAUGHiEeqtavOGiUAhAg _Y3tOcGHiEeqtavOGiUAhAg _Y3uckGHiEeqtavOGiUAhAg _Y3vDoGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YHsGwGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y32YYWHiEeqtavOGiUAhAg" position="-1144.0,1188.0" size="210.0,128.0"/>
+    <stereotypes xmi:id="_Y32YYmHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+      <modelElement href="RepairService.uml#_YHtU4GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y32YY2HiEeqtavOGiUAhAg" name="Annotations">
+      <modelElement href="RepairService.uml#_YHyNYGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y32YZGHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y32YZWHiEeqtavOGiUAhAg" name="customerRepo">
+      <modelElement href="RepairService.uml#_YUBSkGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y32YZmHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YUB5oGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y32YZ2HiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y32YaGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y32YaWHiEeqtavOGiUAhAg" name="CustomerRepository">
+        <modelElement href="RepairService.uml#_YFYZoGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y32YamHiEeqtavOGiUAhAg" name="productRepo">
+      <modelElement href="RepairService.uml#_YUB5omHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y32Ya2HiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YUCgsGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y32YbGHiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y32YbWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y32YbmHiEeqtavOGiUAhAg" name="ProductRepository">
+        <modelElement href="RepairService.uml#_YFUIMGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y32Yb2HiEeqtavOGiUAhAg" name="adminService">
+      <modelElement href="RepairService.uml#_YUCgsmHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y32YcGHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YUCgs2HiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y32YcWHiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y32YcmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y32Yc2HiEeqtavOGiUAhAg" name="AdminService">
+        <modelElement href="RepairService.uml#_YHJ7QGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y32YdGHiEeqtavOGiUAhAg" name="customerService">
+      <modelElement href="RepairService.uml#_YUDHwGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y32YdWHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YUDHwWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y32YdmHiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y32Yd2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y32YeGHiEeqtavOGiUAhAg" name="CustomerService">
+        <modelElement href="RepairService.uml#_YFKXMGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y32YeWHiEeqtavOGiUAhAg" name="setup">
+      <modelElement href="RepairService.uml#_YHujAGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y32YemHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHujAWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y32Ye2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y32YfGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Y32YfWHiEeqtavOGiUAhAg" name="getCustomers">
+      <modelElement href="RepairService.uml#_YHvKEWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y32YfmHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHvxIGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y32Yf2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y32YgGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Y32YgWHiEeqtavOGiUAhAg" name="cancelCustomer">
+      <modelElement href="RepairService.uml#_YHvxImHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y32YgmHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHwYMGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y32Yg2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y32YhGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Y32YhWHiEeqtavOGiUAhAg" name="addNewProduct">
+      <modelElement href="RepairService.uml#_YHw_QWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y32YhmHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YHxmUGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y32Yh2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y32YiGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y3QiiWHiEeqtavOGiUAhAg" name="TaskScheduler" associationsOut="_Y3LqAGHiEeqtavOGiUAhAg _Y3QigGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YHFCwGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y3QiimHiEeqtavOGiUAhAg" position="-1135.0,193.0" size="351.0,139.0"/>
+    <stereotypes xmi:id="_Y3Qii2HiEeqtavOGiUAhAg" name="LegacyStyledElement">
+      <modelElement href="RepairService.uml#_YHFp0GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y3QijGHiEeqtavOGiUAhAg" name="Annotations">
+      <modelElement href="RepairService.uml#_YHIGEGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y3QijWHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y3QijmHiEeqtavOGiUAhAg" defaultValue="Calendar.getInstance()" name="currentDate" staticAttribute="true">
+      <modelElement href="RepairService.uml#_YT9BIGHiEeqtavOGiUAhAg"/>
+      <visibility xmi:id="_Y3Qij2HiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y3QikGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y3QikWHiEeqtavOGiUAhAg" name="Calendar">
+        <modelElement href="RepairService.uml#_YO_ooGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y3QikmHiEeqtavOGiUAhAg" name="productRepo">
+      <modelElement href="RepairService.uml#_YT9oMGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y3Qik2HiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YT9oMWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y3QilGHiEeqtavOGiUAhAg" label="~"/>
+      <cardinality xmi:id="_Y3QilWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y3QilmHiEeqtavOGiUAhAg" name="ProductRepository">
+        <modelElement href="RepairService.uml#_YFUIMGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y3Qil2HiEeqtavOGiUAhAg" defaultValue="LoggerFactory.getLogger(TaskScheduler.class)" name="log" staticAttribute="true">
+      <modelElement href="RepairService.uml#_YT9oM2HiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y3QimGHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YT-PQWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y3QimWHiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y3QimmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y3Qim2HiEeqtavOGiUAhAg" name="Logger">
+        <modelElement href="RepairService.uml#_YQ8wcWHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y3QinGHiEeqtavOGiUAhAg" name="taskSchedular">
+      <modelElement href="RepairService.uml#_YHGQ4GHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y3QinWHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YHG38GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y3QinmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3Qin2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_8vZqgGHiEeqtavOGiUAhAg" name="Logger" associationsIn="_Y3QigGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YQ8wcWHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_8vZqgWHiEeqtavOGiUAhAg" position="-608.0,196.0" size="126.0,61.0"/>
+    <stereotypes xmi:id="_8vZqgmHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YRC3EGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_8vZqg2HiEeqtavOGiUAhAg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Y2l0IGHiEeqtavOGiUAhAg" name="ProductRepository" associationsIn="_Y2j-8GHiEeqtavOGiUAhAg _Y3LqAGHiEeqtavOGiUAhAg _Y3tOcGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YFUIMGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y2mbMGHiEeqtavOGiUAhAg" position="-627.0,95.0" size="116.0,71.0"/>
+    <visibility xmi:id="_Y2mbMWHiEeqtavOGiUAhAg" label="+"/>
+    <operations xmi:id="_Y2mbMmHiEeqtavOGiUAhAg" name="findByCustomer">
+      <modelElement href="RepairService.uml#_YOOMkGHiEeqtavOGiUAhAg"/>
+      <visibility xmi:id="_Y2mbM2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2mbNGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y2mbNWHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YOOzoWHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y2mbNmHiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Y2mbN2HiEeqtavOGiUAhAg" name="customer">
+        <modelElement href="RepairService.uml#_YOOzoGHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y2mbOGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y2mbOWHiEeqtavOGiUAhAg" name="Customer">
+          <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YyLOMGHiEeqtavOGiUAhAg" name="RepairServiceApplication">
+    <modelElement href="RepairService.uml#_YE6fkGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_YyLOMWHiEeqtavOGiUAhAg" position="-291.0,30.0" size="524.0,116.0"/>
+    <stereotypes xmi:id="_YyLOMmHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+      <modelElement href="RepairService.uml#_YE_YEGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_YyLOM2HiEeqtavOGiUAhAg" name="Annotations">
+      <modelElement href="RepairService.uml#_YFHT4GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_YyLONGHiEeqtavOGiUAhAg" label="+"/>
+    <operations xmi:id="_YyLONWHiEeqtavOGiUAhAg" name="main" staticOperation="true">
+      <modelElement href="RepairService.uml#_YFDpgGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YyLONmHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YFFesGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YyLON2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_YyLOOGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YyLOOWHiEeqtavOGiUAhAg" name="args">
+        <modelElement href="RepairService.uml#_YFDpgWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_YyLOOmHiEeqtavOGiUAhAg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_YyLOO2HiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YyLOPGHiEeqtavOGiUAhAg" name="configure">
+      <modelElement href="RepairService.uml#_YTB0EGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_YyLOPWHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YTCbIWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_YyLOPmHiEeqtavOGiUAhAg" label="#"/>
+      <cardinality xmi:id="_YyLOP2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YyLOQGHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YTCbIGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_YyLOQWHiEeqtavOGiUAhAg" name="SpringApplicationBuilder">
+          <modelElement href="RepairService.uml#_YMz3UGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YyLOQmHiEeqtavOGiUAhAg" name="application">
+        <modelElement href="RepairService.uml#_YTB0EWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_YyLOQ2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_YyLORGHiEeqtavOGiUAhAg" name="SpringApplicationBuilder">
+          <modelElement href="RepairService.uml#_YMz3UGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y4GQAGHiEeqtavOGiUAhAg" name="CustomerServiceTest" associationsOut="_Y4AwcGHiEeqtavOGiUAhAg _Y4BXgGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YH1QsGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y4GQAWHiEeqtavOGiUAhAg" position="-260.0,733.0" size="228.0,87.0"/>
+    <stereotypes xmi:id="_Y4GQAmHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+      <modelElement href="RepairService.uml#_YH2e0GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y4GQA2HiEeqtavOGiUAhAg" name="Annotations">
+      <modelElement href="RepairService.uml#_YH4UAmHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y4GQBGHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y4GQBWHiEeqtavOGiUAhAg" name="customerRepo">
+      <modelElement href="RepairService.uml#_YUDu0GHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y4GQBmHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YUDu0WHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y4GQB2HiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y4GQCGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y4GQCWHiEeqtavOGiUAhAg" name="CustomerRepository">
+        <modelElement href="RepairService.uml#_YFYZoGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y4GQCmHiEeqtavOGiUAhAg" name="customerService">
+      <modelElement href="RepairService.uml#_YUEV4GHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y4GQC2HiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YUEV4WHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y4GQDGHiEeqtavOGiUAhAg" label="-"/>
+      <cardinality xmi:id="_Y4GQDWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y4GQDmHiEeqtavOGiUAhAg" name="CustomerService">
+        <modelElement href="RepairService.uml#_YFKXMGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y4GQD2HiEeqtavOGiUAhAg" name="setup">
+      <modelElement href="RepairService.uml#_YH3F4GHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y4GQEGHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YH3s8GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y4GQEWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y4GQEmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Y4GQE2HiEeqtavOGiUAhAg" name="AddCustomer">
+      <modelElement href="RepairService.uml#_YH3s8mHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y4GQFGHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YH4UAGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y4GQFWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y4GQFmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y0Q44GHiEeqtavOGiUAhAg" name="CustomerController" associationsOut="_Y0QR0GHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YFPPsGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y0Q44WHiEeqtavOGiUAhAg" position="-5.0,800.0" size="208.0,111.0"/>
+    <stereotypes xmi:id="_Y0Q44mHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+      <modelElement href="RepairService.uml#_YFP2wGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y0Q442HiEeqtavOGiUAhAg" name="Annotations">
+      <modelElement href="RepairService.uml#_YFRr8GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y0Q45GHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y0Q45WHiEeqtavOGiUAhAg" name="customerService">
+      <modelElement href="RepairService.uml#_YTu-sGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y0Q45mHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YTu-sWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y0Q452HiEeqtavOGiUAhAg" label="~"/>
+      <cardinality xmi:id="_Y0Q46GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y0Q46WHiEeqtavOGiUAhAg" name="CustomerService">
+        <modelElement href="RepairService.uml#_YFKXMGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y0Q46mHiEeqtavOGiUAhAg" name="formFailureLogging">
+      <modelElement href="RepairService.uml#_YFP2wWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y0Q462HiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YFRE4GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y0Q47GHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y0Q47WHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y0Q47mHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YFQd0GHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y0Q472HiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y0Q48GHiEeqtavOGiUAhAg" name="addNewCustomer">
+      <modelElement href="RepairService.uml#_YN41YGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y0Q48WHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YN6DgGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y0Q48mHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y0Q482HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y0Q49GHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YTDCMGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y0Q49WHiEeqtavOGiUAhAg" name="ModelAndView">
+          <modelElement href="RepairService.uml#_YNwSgWHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Y0Q49mHiEeqtavOGiUAhAg" name="customer">
+        <modelElement href="RepairService.uml#_YN41YWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y0Q492HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y0Q4-GHiEeqtavOGiUAhAg" name="Customer">
+          <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y0KyQGHiEeqtavOGiUAhAg" name="Exception">
+    <modelElement href="RepairService.uml#_YTg8QGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y0KyQWHiEeqtavOGiUAhAg" position="111.0,667.0" size="139.0,67.0"/>
+    <stereotypes xmi:id="_Y0KyQmHiEeqtavOGiUAhAg" name="Reference">
+      <modelElement href="RepairService.uml#_YTmb0GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y0KyQ2HiEeqtavOGiUAhAg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y3iPUGHiEeqtavOGiUAhAg" name="AdminService" associationsIn="_YzrDAGHiEeqtavOGiUAhAg _Y3uckGHiEeqtavOGiUAhAg" associationsOut="_Y2j-8GHiEeqtavOGiUAhAg _Y2qFkGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YHJ7QGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y3iPUWHiEeqtavOGiUAhAg" position="-136.0,967.0" size="281.0,187.0"/>
+    <stereotypes xmi:id="_Y3iPUmHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+      <modelElement href="RepairService.uml#_YHLJYGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y3iPU2HiEeqtavOGiUAhAg" name="Annotations">
+      <modelElement href="RepairService.uml#_YHQo8GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y3iPVGHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y3iPVWHiEeqtavOGiUAhAg" name="productRepo">
+      <modelElement href="RepairService.uml#_YT-2UGHiEeqtavOGiUAhAg"/>
+      <visibility xmi:id="_Y3iPVmHiEeqtavOGiUAhAg" label="~"/>
+      <cardinality xmi:id="_Y3iPV2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y3iPWGHiEeqtavOGiUAhAg" name="ProductRepository">
+        <modelElement href="RepairService.uml#_YFUIMGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y3iPWWHiEeqtavOGiUAhAg" name="customerRepo">
+      <modelElement href="RepairService.uml#_YT-2U2HiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_5LT74WHmEeqtavOGiUAhAg" name="Annotations"/>
+      <stereotypes xmi:id="_5Lds4GHmEeqtavOGiUAhAg" name="Annotations"/>
+      <visibility xmi:id="_Y3iPWmHiEeqtavOGiUAhAg" label="~"/>
+      <cardinality xmi:id="_Y3iPW2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y3iPXGHiEeqtavOGiUAhAg" name="CustomerRepository">
+        <modelElement href="RepairService.uml#_YFYZoGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y3iPXWHiEeqtavOGiUAhAg" name="getCustomers">
+      <modelElement href="RepairService.uml#_YHLwcGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y3iPXmHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YHMXgGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y3iPX2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3iPYGHiEeqtavOGiUAhAg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Y3iPYWHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHLwcWHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y3iPYmHiEeqtavOGiUAhAg" name="Customer">
+          <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y3iPY2HiEeqtavOGiUAhAg" name="cancelCustomer">
+      <modelElement href="RepairService.uml#_YHM-kGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y3iPZGHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YHNloGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y3iPZWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3iPZmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y3iPZ2HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHM-kmHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y3iPaGHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Y3iPaWHiEeqtavOGiUAhAg" name="id">
+        <modelElement href="RepairService.uml#_YHM-kWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y3iPamHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y3iPa2HiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Y3iPbGHiEeqtavOGiUAhAg" name="getProducts">
+      <modelElement href="RepairService.uml#_YHOMsGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y3iPbWHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YHOMs2HiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y3iPbmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3iPb2HiEeqtavOGiUAhAg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Y3iPcGHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHOMsWHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y3iPcWHiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y3iPcmHiEeqtavOGiUAhAg" name="searchProduct">
+      <modelElement href="RepairService.uml#_YHOzwGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y3iPc2HiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YHOzwmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y3iPdGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3iPdWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y3iPdmHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YRZcYGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y3iPd2HiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Y3iPeGHiEeqtavOGiUAhAg" name="name">
+        <modelElement href="RepairService.uml#_YHOzwWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y3iPeWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y3iPemHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Y3iPe2HiEeqtavOGiUAhAg" name="cancelProduct">
+      <modelElement href="RepairService.uml#_YHPa0GHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y3iPfGHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YHQB4GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y3iPfWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3iPfmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y3iPf2HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YRZcYWHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y3iPgGHiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Y3iPgWHiEeqtavOGiUAhAg" name="id">
+        <modelElement href="RepairService.uml#_YHPa0WHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y3iPgmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y3iPg2HiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Y3iPhGHiEeqtavOGiUAhAg" name="addNewProduct">
+      <modelElement href="RepairService.uml#_YRY1UGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y3i2YGHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YRY1U2HiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y3i2YWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3i2YmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y3i2Y2HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YRY1UmHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y3i2ZGHiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Y3i2ZWHiEeqtavOGiUAhAg" name="product">
+        <modelElement href="RepairService.uml#_YRY1UWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y3i2ZmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y3i2Z2HiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y2OnwGHiEeqtavOGiUAhAg" name="Customer" associationsOut="_Y0wBEGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y2OnwWHiEeqtavOGiUAhAg" position="1361.0,231.0" size="277.0,230.0"/>
+    <stereotypes xmi:id="_Y2OnwmHiEeqtavOGiUAhAg" name="JPA1StyledElement">
+      <modelElement href="RepairService.uml#_YGoW0GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y2Onw2HiEeqtavOGiUAhAg" name="TechnicalSupplement">
+      <modelElement href="RepairService.uml#_YGo94GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y2OnxGHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y2OnxWHiEeqtavOGiUAhAg" name="id">
+      <modelElement href="RepairService.uml#_YT4vsGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y2OnxmHiEeqtavOGiUAhAg" name="PrimaryKey">
+        <modelElement href="RepairService.uml#_YT5WwGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Y2Onx2HiEeqtavOGiUAhAg" name="GeneratedValueMapping">
+        <modelElement href="RepairService.uml#_YT5WwWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2OnyGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2OnyWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y2OnymHiEeqtavOGiUAhAg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y2Ony2HiEeqtavOGiUAhAg" name="name">
+      <modelElement href="RepairService.uml#_YT590GHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y2OnzGHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YT6k4GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2OnzWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2OnzmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y2Onz2HiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y2On0GHiEeqtavOGiUAhAg" name="phoneNumber">
+      <modelElement href="RepairService.uml#_YT6k4WHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y2On0WHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YT6k4mHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2On0mHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2On02HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y2On1GHiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y2On1WHiEeqtavOGiUAhAg" name="email">
+      <modelElement href="RepairService.uml#_YT6k42HiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y2On1mHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YT7L8GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2On12HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2On2GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y2On2WHiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y2On2mHiEeqtavOGiUAhAg" name="address">
+      <modelElement href="RepairService.uml#_YT7L8WHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y2On22HiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YT7L8mHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2On3GHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2On3WHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y2On3mHiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y2On32HiEeqtavOGiUAhAg" name="description">
+      <modelElement href="RepairService.uml#_YT7L82HiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y2On4GHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YT7zAGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2On4WHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2On4mHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y2On42HiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y2On5GHiEeqtavOGiUAhAg" name="Customer">
+      <modelElement href="RepairService.uml#_YGpk8GHiEeqtavOGiUAhAg"/>
+      <keywords xmi:id="_Y2On5WHiEeqtavOGiUAhAg" keyword="create"/>
+      <stereotypes xmi:id="_Y2On5mHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YGqzEWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2On52HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2On6GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y2On6WHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YGqzEGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y2On6mHiEeqtavOGiUAhAg" name="Customer">
+          <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y2On62HiEeqtavOGiUAhAg" name="Customer">
+      <modelElement href="RepairService.uml#_YGraIGHiEeqtavOGiUAhAg"/>
+      <keywords xmi:id="_Y2On7GHiEeqtavOGiUAhAg" keyword="create"/>
+      <stereotypes xmi:id="_Y2On7WHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YGtPUGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2On7mHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2On72HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y2On8GHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YGsoRGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y2On8WHiEeqtavOGiUAhAg" name="Customer">
+          <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Y2On8mHiEeqtavOGiUAhAg" name="id">
+        <modelElement href="RepairService.uml#_YGsBMGHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y2On82HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y2On9GHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y2On9WHiEeqtavOGiUAhAg" name="name">
+        <modelElement href="RepairService.uml#_YGsBMWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y2On9mHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y2On92HiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y2On-GHiEeqtavOGiUAhAg" name="phoneNumber">
+        <modelElement href="RepairService.uml#_YGsBMmHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y2On-WHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y2On-mHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y2On-2HiEeqtavOGiUAhAg" name="email">
+        <modelElement href="RepairService.uml#_YGsBM2HiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y2On_GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y2On_WHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y2On_mHiEeqtavOGiUAhAg" name="address">
+        <modelElement href="RepairService.uml#_YGsoQGHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y2On_2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y2OoAGHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Y2OoAWHiEeqtavOGiUAhAg" name="description">
+        <modelElement href="RepairService.uml#_YGsoQWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y2OoAmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y2OoA2HiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Y2OoBGHiEeqtavOGiUAhAg" name="toString">
+      <modelElement href="RepairService.uml#_YGtPUWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y2OoBWHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+        <modelElement href="RepairService.uml#_YGt2YWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Y2OoBmHiEeqtavOGiUAhAg" name="Annotations">
+        <modelElement href="RepairService.uml#_YGudcGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2OoB2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2OoCGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y2OoCWHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YGt2YGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y2OoCmHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y2DBkGHiEeqtavOGiUAhAg" name="Phone" generalizations="_Y1-JEGHiEeqtavOGiUAhAg" subclassedBy="_Y1-wIGHiEeqtavOGiUAhAg _Y1-wIWHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YFypUGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y2DBkWHiEeqtavOGiUAhAg" position="1208.0,527.0" size="275.0,130.0"/>
+    <stereotypes xmi:id="_Y2DBkmHiEeqtavOGiUAhAg" name="PersistentPart">
+      <modelElement href="RepairService.uml#_YGCg8GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y2DBk2HiEeqtavOGiUAhAg" name="JPA1StyledElement">
+      <modelElement href="RepairService.uml#_YGDIAGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y2DBlGHiEeqtavOGiUAhAg" name="TechnicalSupplement">
+      <modelElement href="RepairService.uml#_YGDvEGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y2DBlWHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y2DBlmHiEeqtavOGiUAhAg" name="adaptor">
+      <modelElement href="RepairService.uml#_YTyCAGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y2DBl2HiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YTyCAWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2DBmGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2DBmWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y2DBmmHiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y2DBm2HiEeqtavOGiUAhAg" name="pieceChargeAndFixedDate">
+      <modelElement href="RepairService.uml#_YGEWIGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y2DBnGHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YGE9MWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2DBnWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2DBnmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y2DBn2HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YGE9MGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y2DBoGHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y2DBoWHiEeqtavOGiUAhAg" name="changedBasicPart">
+      <modelElement href="RepairService.uml#_YPNrEGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y2DBomHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YPOSIGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y2DBo2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y2DBpGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y2DBpWHiEeqtavOGiUAhAg" name="product">
+        <modelElement href="RepairService.uml#_YPNrEWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y2DBpmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y2DBp2HiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y1Uo0GHiEeqtavOGiUAhAg" name="Pc" generalizations="_Y0p6cWHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YFtJwGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y1Uo0WHiEeqtavOGiUAhAg" position="857.0,537.0" size="259.0,121.0"/>
+    <stereotypes xmi:id="_Y1Uo0mHiEeqtavOGiUAhAg" name="JPA1StyledElement">
+      <modelElement href="RepairService.uml#_YFuX4GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y1Uo02HiEeqtavOGiUAhAg" name="TechnicalSupplement">
+      <modelElement href="RepairService.uml#_YFu-8GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y1Uo1GHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y1Uo1WHiEeqtavOGiUAhAg" name="computerBox">
+      <modelElement href="RepairService.uml#_YTxa8GHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1Uo1mHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YTxa8WHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1Uo12HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1Uo2GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y1Uo2WHiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y1Uo2mHiEeqtavOGiUAhAg" name="Pc">
+      <modelElement href="RepairService.uml#_YFvmAGHiEeqtavOGiUAhAg"/>
+      <keywords xmi:id="_Y1Uo22HiEeqtavOGiUAhAg" keyword="create"/>
+      <stereotypes xmi:id="_Y1Uo3GHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YFwNEGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1Uo3WHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1Uo3mHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y1Uo32HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YFvmA2HiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y1Uo4GHiEeqtavOGiUAhAg" name="Pc">
+          <modelElement href="RepairService.uml#_YFtJwGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y1Uo4WHiEeqtavOGiUAhAg" name="changedSpecPart">
+      <modelElement href="RepairService.uml#_YO-agGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y1Uo4mHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YO-agmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y1Uo42HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y1Uo5GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y1Uo5WHiEeqtavOGiUAhAg" name="product">
+        <modelElement href="RepairService.uml#_YO-agWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y1Uo5mHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y1VP4GHiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y3ZFYGHiEeqtavOGiUAhAg" name="CustomerService" associationsIn="_Y0QR0GHiEeqtavOGiUAhAg _Y3vDoGHiEeqtavOGiUAhAg _Y4BXgGHiEeqtavOGiUAhAg" associationsOut="_Y2pegGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YFKXMGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y3ZFYWHiEeqtavOGiUAhAg" position="-810.0,397.0" size="179.0,81.0"/>
+    <stereotypes xmi:id="_Y3ZFYmHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+      <modelElement href="RepairService.uml#_YFLlUGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y3ZFY2HiEeqtavOGiUAhAg" name="Annotations">
+      <modelElement href="RepairService.uml#_YFMzcGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y3ZFZGHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y3ZFZWHiEeqtavOGiUAhAg" name="customerRepo">
+      <modelElement href="RepairService.uml#_YTtwkGHiEeqtavOGiUAhAg"/>
+      <visibility xmi:id="_Y3ZFZmHiEeqtavOGiUAhAg" label="~"/>
+      <cardinality xmi:id="_Y3ZFZ2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y3ZFaGHiEeqtavOGiUAhAg" name="CustomerRepository">
+        <modelElement href="RepairService.uml#_YFYZoGHiEeqtavOGiUAhAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y3ZFaWHiEeqtavOGiUAhAg" name="addCustomer">
+      <modelElement href="RepairService.uml#_YNbiYGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y3ZFamHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YNcJcmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y3ZFa2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3ZFbGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y3ZFbWHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YNcJcWHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y3ZFbmHiEeqtavOGiUAhAg" name="Customer">
+          <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Y3ZFb2HiEeqtavOGiUAhAg" name="customer">
+        <modelElement href="RepairService.uml#_YNcJcGHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y3ZFcGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y3ZFcWHiEeqtavOGiUAhAg" name="Customer">
+          <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y0b4AGHiEeqtavOGiUAhAg" name="LandLinePhone" generalizations="_Y1-wIGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YFcrEGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y0b4AWHiEeqtavOGiUAhAg" position="380.0,698.0" size="257.0,126.0"/>
+    <stereotypes xmi:id="_Y0b4AmHiEeqtavOGiUAhAg" name="JPA1StyledElement">
+      <modelElement href="RepairService.uml#_YFfHUGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y0b4A2HiEeqtavOGiUAhAg" name="TechnicalSupplement">
+      <modelElement href="RepairService.uml#_YFgVcGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y0b4BGHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y0b4BWHiEeqtavOGiUAhAg" name="receiver">
+      <modelElement href="RepairService.uml#_YTvlwGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y0b4BmHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YTwM0GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y0b4B2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y0b4CGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y0b4CWHiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y0b4CmHiEeqtavOGiUAhAg" name="LandLinePhone">
+      <modelElement href="RepairService.uml#_YFhjkGHiEeqtavOGiUAhAg"/>
+      <keywords xmi:id="_Y0b4C2HiEeqtavOGiUAhAg" keyword="create"/>
+      <stereotypes xmi:id="_Y0b4DGHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YFiKomHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y0b4DWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y0b4DmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y0b4D2HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YFiKoWHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y0b4EGHiEeqtavOGiUAhAg" name="LandLinePhone">
+          <modelElement href="RepairService.uml#_YFcrEGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y0b4EWHiEeqtavOGiUAhAg" name="changedSpecPart">
+      <modelElement href="RepairService.uml#_YO468GHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y0b4EmHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YO5iAGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y0b4E2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y0b4FGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y0b4FWHiEeqtavOGiUAhAg" name="product">
+        <modelElement href="RepairService.uml#_YO468WHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y0b4FmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y0b4F2HiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y0jz0GHiEeqtavOGiUAhAg" name="Laptop" generalizations="_Y0p6cGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YFj_0GHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y0jz0WHiEeqtavOGiUAhAg" position="512.0,882.0" size="192.0,116.0"/>
+    <stereotypes xmi:id="_Y0jz0mHiEeqtavOGiUAhAg" name="JPA1StyledElement">
+      <modelElement href="RepairService.uml#_YFkm4GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y0jz02HiEeqtavOGiUAhAg" name="TechnicalSupplement">
+      <modelElement href="RepairService.uml#_YFlN8GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y0jz1GHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y0jz1WHiEeqtavOGiUAhAg" name="touchPad">
+      <modelElement href="RepairService.uml#_YTwM0WHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y0jz1mHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YTwM0mHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y0jz12HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y0jz2GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y0jz2WHiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y0jz2mHiEeqtavOGiUAhAg" name="Laptop">
+      <modelElement href="RepairService.uml#_YFl1AGHiEeqtavOGiUAhAg"/>
+      <keywords xmi:id="_Y0jz22HiEeqtavOGiUAhAg" keyword="create"/>
+      <stereotypes xmi:id="_Y0jz3GHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YFmcEGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y0jz3WHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y0jz3mHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y0jz32HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YFl1A2HiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y0jz4GHiEeqtavOGiUAhAg" name="Laptop">
+          <modelElement href="RepairService.uml#_YFj_0GHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y0jz4WHiEeqtavOGiUAhAg" name="changedSpecPart">
+      <modelElement href="RepairService.uml#_YO6wIGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y0jz4mHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YO7XMGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y0jz42HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y0jz5GHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y0jz5WHiEeqtavOGiUAhAg" name="product">
+        <modelElement href="RepairService.uml#_YO6wIWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y0jz5mHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y0jz52HiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y07AMGHiEeqtavOGiUAhAg" name="Computer" generalizations="_Y0qhgGHiEeqtavOGiUAhAg" subclassedBy="_Y0p6cGHiEeqtavOGiUAhAg _Y0p6cWHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YGxgwGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y07AMWHiEeqtavOGiUAhAg" position="496.0,271.0" size="242.0,220.0"/>
+    <stereotypes xmi:id="_Y07AMmHiEeqtavOGiUAhAg" name="PersistentPart">
+      <modelElement href="RepairService.uml#_YG9G8GHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y07AM2HiEeqtavOGiUAhAg" name="JPA1StyledElement">
+      <modelElement href="RepairService.uml#_YG9uAGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y07ANGHiEeqtavOGiUAhAg" name="TechnicalSupplement">
+      <modelElement href="RepairService.uml#_YG-8IGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y07ANWHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y07ANmHiEeqtavOGiUAhAg" name="screen">
+      <modelElement href="RepairService.uml#_YT7zAWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y07AN2HiEeqtavOGiUAhAg" name="LegacyStyledElement">
+        <modelElement href="RepairService.uml#_YT8aEGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y07AOGHiEeqtavOGiUAhAg" label="#"/>
+      <cardinality xmi:id="_Y07AOWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y07AOmHiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y07AO2HiEeqtavOGiUAhAg" name="mouse">
+      <modelElement href="RepairService.uml#_YT8aEWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y07APGHiEeqtavOGiUAhAg" name="LegacyStyledElement">
+        <modelElement href="RepairService.uml#_YT8aEmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y07APWHiEeqtavOGiUAhAg" label="#"/>
+      <cardinality xmi:id="_Y07APmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y07AP2HiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y07AQGHiEeqtavOGiUAhAg" name="pieceChargeAndFixedDate">
+      <modelElement href="RepairService.uml#_YG-8IWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y07AQWHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YG_jMWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y07AQmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y07AQ2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y07ARGHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YG_jMGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y07ARWHiEeqtavOGiUAhAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y07ARmHiEeqtavOGiUAhAg" name="getMouse">
+      <modelElement href="RepairService.uml#_YHAKQGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y07AR2HiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YHAxUGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y07ASGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y07ASWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y07ASmHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHAKQWHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y07AS2HiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y07ATGHiEeqtavOGiUAhAg" name="setMouse">
+      <modelElement href="RepairService.uml#_YHAxUWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y07ATWHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YHBYYGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y07ATmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y07AT2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y07AUGHiEeqtavOGiUAhAg" name="mouse">
+        <modelElement href="RepairService.uml#_YHAxUmHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y07AUWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y07AUmHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Y07AU2HiEeqtavOGiUAhAg" name="getScreen">
+      <modelElement href="RepairService.uml#_YHBYYWHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y07AVGHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YHB_cWHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y07AVWHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y07AVmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y07AV2HiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YHB_cGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y07AWGHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y07AWWHiEeqtavOGiUAhAg" name="setScreen">
+      <modelElement href="RepairService.uml#_YHCmgGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y07AWmHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YHCmgmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y07AW2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y07AXGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y07AXWHiEeqtavOGiUAhAg" name="screen">
+        <modelElement href="RepairService.uml#_YHCmgWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y07AXmHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y07AX2HiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Y07AYGHiEeqtavOGiUAhAg" name="changedBasicPart">
+      <modelElement href="RepairService.uml#_YQonYGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y07AYWHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YQpOcGHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y07AYmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y07AY2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y07AZGHiEeqtavOGiUAhAg" name="product">
+        <modelElement href="RepairService.uml#_YQonYWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y07AZWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y07AZmHiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Y14CcGHiEeqtavOGiUAhAg" name="MobilePhone" generalizations="_Y1-wIWHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YFnqMGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y14CcWHiEeqtavOGiUAhAg" position="848.0,735.0" size="276.0,135.0"/>
+    <stereotypes xmi:id="_Y14CcmHiEeqtavOGiUAhAg" name="JPA1StyledElement">
+      <modelElement href="RepairService.uml#_YFo4UGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Y14Cc2HiEeqtavOGiUAhAg" name="TechnicalSupplement">
+      <modelElement href="RepairService.uml#_YFpfYGHiEeqtavOGiUAhAg"/>
+    </stereotypes>
+    <visibility xmi:id="_Y14CdGHiEeqtavOGiUAhAg" label="+"/>
+    <attributes xmi:id="_Y14CdWHiEeqtavOGiUAhAg" name="battery">
+      <modelElement href="RepairService.uml#_YTwM02HiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y14CdmHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YTwz4GHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y14Cd2HiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y14CeGHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y14CeWHiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Y14CemHiEeqtavOGiUAhAg" name="touchScreen">
+      <modelElement href="RepairService.uml#_YTwz4WHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y14Ce2HiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YTwz4mHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y14CfGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y14CfWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <type xmi:id="_Y14CfmHiEeqtavOGiUAhAg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Y14Cf2HiEeqtavOGiUAhAg" name="MobilePhone">
+      <modelElement href="RepairService.uml#_YFpfYWHiEeqtavOGiUAhAg"/>
+      <keywords xmi:id="_Y14CgGHiEeqtavOGiUAhAg" keyword="create"/>
+      <stereotypes xmi:id="_Y14CgWHiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YFqGc2HiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y14CgmHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y14Cg2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y14ChGHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YFqGcmHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y14ChWHiEeqtavOGiUAhAg" name="MobilePhone">
+          <modelElement href="RepairService.uml#_YFnqMGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Y14ChmHiEeqtavOGiUAhAg" name="changedSpecPart">
+      <modelElement href="RepairService.uml#_YO8lUGHiEeqtavOGiUAhAg"/>
+      <stereotypes xmi:id="_Y14Ch2HiEeqtavOGiUAhAg" name="StyledElement">
+        <modelElement href="RepairService.uml#_YO8lUmHiEeqtavOGiUAhAg"/>
+      </stereotypes>
+      <visibility xmi:id="_Y14CiGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y14CiWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Y14CimHiEeqtavOGiUAhAg" name="product">
+        <modelElement href="RepairService.uml#_YO8lUWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y14Ci2HiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y14CjGHiEeqtavOGiUAhAg" name="Product">
+          <modelElement href="RepairService.uml#_YGIAgGHiEeqtavOGiUAhAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Y3JNwGHiEeqtavOGiUAhAg" name="CustomerRepository" associationsIn="_Y2pegGHiEeqtavOGiUAhAg _Y2qFkGHiEeqtavOGiUAhAg _Y3sAUGHiEeqtavOGiUAhAg _Y4AwcGHiEeqtavOGiUAhAg">
+    <modelElement href="RepairService.uml#_YFYZoGHiEeqtavOGiUAhAg"/>
+    <visualProperties xmi:id="_Y3JNwWHiEeqtavOGiUAhAg" position="-1440.0,271.0" size="290.0,71.0"/>
+    <visibility xmi:id="_Y3JNwmHiEeqtavOGiUAhAg" label="+"/>
+    <operations xmi:id="_Y3JNw2HiEeqtavOGiUAhAg" name="findByName">
+      <modelElement href="RepairService.uml#_YFZnwGHiEeqtavOGiUAhAg"/>
+      <visibility xmi:id="_Y3JNxGHiEeqtavOGiUAhAg" label="+"/>
+      <cardinality xmi:id="_Y3JNxWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Y3JNxmHiEeqtavOGiUAhAg">
+        <modelElement href="RepairService.uml#_YOYkoGHiEeqtavOGiUAhAg"/>
+        <type xmi:id="_Y3JNx2HiEeqtavOGiUAhAg" name="Customer">
+          <modelElement href="RepairService.uml#_YGnIsGHiEeqtavOGiUAhAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Y3JNyGHiEeqtavOGiUAhAg" name="name">
+        <modelElement href="RepairService.uml#_YFZnwWHiEeqtavOGiUAhAg"/>
+        <cardinality xmi:id="_Y3JNyWHiEeqtavOGiUAhAg" label="1" max="1" min="1"/>
+        <type xmi:id="_Y3JNymHiEeqtavOGiUAhAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
