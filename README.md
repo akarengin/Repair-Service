@@ -1,6 +1,6 @@
 # Repair Service
 
-This application enables customer to fill in a failure logging form so that the repair service can be used to register customer data and fixed part of his/her product. Then when the repair date comes it creates log info which informs the customer about it.log info which informs customer about it.  
+This application enables customer to fill in a failure logging form so that the repair service can be used to register customer data and fixed part of his/her product. Then when the repair date comes it creates log info which informs the customer about it.
 
 # Prerequisites
 
