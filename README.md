@@ -2,14 +2,14 @@
 
 This application enables customer to fill in a failure logging form so that the repair service can be used to register customer data and fixed part of his/her product. Then when the repair date comes it creates log info which informs the customer about it.log info which informs customer about it.  
 
-#Prerequisites
+# Prerequisites
 
 * JDK 8+
 * Eclipse
 * MySQL Community Server 5.7
 * Internet browser
 
-#Built With
+# Built With
 
 Project is created with:
 
@@ -20,7 +20,7 @@ Project is created with:
 * TomCat Jasper - Server
 * Junit - Unit testing 
 
-#Usage
+# Usage
 
 Run the application and go on http://localhost:8080
 
